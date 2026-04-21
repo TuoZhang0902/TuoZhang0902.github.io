@@ -7,58 +7,108 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Tuo Zhang</h1>
-      <p>NYU Mathematics + Computer Science</p>
-      <p>Incoming Columbia MS in AI</p>
-      <p>Interested in AI, multimodal systems, computer vision, and applied machine learning.</p>
+  <div class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Tuo Zhang</h1>
+        <p class="subtitle">NYU Mathematics + Computer Science</p>
+        <p class="subtitle">Incoming Columbia MS in AI</p>
+        <p class="intro">
+          Interested in AI, multimodal systems, computer vision, and applied machine learning.
+        </p>
 
-      <div class="links">
-        <a href="tuozhang0902@gmail.com">Email</a>
-        <a href="https://github.com/TuoZhang0902" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/tuo-zhang-263671387/" target="_blank">LinkedIn</a>
-        <a href="resume.pdf" target="_blank">Resume</a>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="mailto:tuozhang0902@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="resume.pdf" target="_blank">Resume</a>
+          <a class="btn btn-secondary" href="https://github.com/TuoZhang0902" target="_blank">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/tuo-zhang-263671387/" target="_blank">LinkedIn</a>
+        </div>
       </div>
     </header>
 
-    <section>
-      <h2>About</h2>
-      <p>
-        I am a Mathematics and Computer Science student at NYU and an incoming M.S. student in AI at Columbia.
-        My interests include multimodal AI, computer vision, applied machine learning, and real-world intelligent systems.
-      </p>
-    </section>
+    <main class="container">
+      <section class="section">
+        <div class="section-header">
+          <h2>About</h2>
+          <p class="section-note">A brief introduction</p>
+        </div>
+        <div class="panel">
+          <p>
+            I am a Mathematics and Computer Science student at NYU and an incoming M.S. student in AI at Columbia.
+            My interests include multimodal AI, computer vision, applied machine learning, and real-world intelligent systems.
+          </p>
+        </div>
+      </section>
 
-    <section>
-      <h2>Selected Projects</h2>
+      <section class="section">
+        <div class="section-header">
+          <h2>Selected Projects</h2>
+          <p class="section-note">A few projects I’ve built</p>
+        </div>
 
-      <div class="card">
-        <h3>Multimodal Storytelling</h3>
-        <p>A multimodal AI pipeline for interactive storybook creation, combining story generation and image generation.</p>
-        <p><strong>Tech:</strong> Python, FastAPI, ComfyUI, GCP</p>
-        <a href="https://github.com/TuoZhang0902/multimodal-storytelling" target="_blank">View Project</a>
-      </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Multimodal Storytelling</h3>
+              <span class="tag">AI Pipeline</span>
+            </div>
+            <p class="project-desc">
+              A multimodal AI pipeline for interactive storybook creation, combining story generation and image generation.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, ComfyUI, GCP</p>
+            <a class="project-link" href="https://github.com/TuoZhang0902/multimodal-storytelling" target="_blank">View Project →</a>
+          </article>
 
-      <div class="card">
-        <h3>Speech Improvement System</h3>
-        <p>A containerized multiservice audio analysis application with a Flask web app, machine learning client, and shared storage.</p>
-        <p><strong>Tech:</strong> Python, Flask, Docker, MongoDB</p>
-        <a href="https://github.com/TuoZhang0902/speech-improvement-system" target="_blank">View Project</a>
-      </div>
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Speech Improvement System</h3>
+              <span class="tag">Full Stack</span>
+            </div>
+            <p class="project-desc">
+              A containerized multiservice audio analysis application with a Flask web app, machine learning client, and shared storage.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> Python, Flask, Docker, MongoDB</p>
+            <a class="project-link" href="https://github.com/TuoZhang0902/speech-improvement-system" target="_blank">View Project →</a>
+          </article>
 
-      <div class="card">
-        <h3>Cat Emoji Package</h3>
-        <p>A lighthearted Python package that generates playful cat-themed terminal output and ASCII content.</p>
-        <p><strong>Tech:</strong> Python, Packaging, PyPI</p>
-        <a href="https://github.com/TuoZhang0902/cat_emoji_package" target="_blank">View Project</a>
-      </div>
-    </section>
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Cat Emoji Package</h3>
+              <span class="tag">Python Package</span>
+            </div>
+            <p class="project-desc">
+              A lighthearted Python package that generates playful cat-themed terminal output and ASCII content.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> Python, Packaging, PyPI</p>
+            <a class="project-link" href="https://github.com/TuoZhang0902/cat_emoji_package" target="_blank">View Project →</a>
+          </article>
+        </div>
+      </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: 你的邮箱</p>
-    </section>
+      <section class="section">
+        <div class="section-header">
+          <h2>Quick Links</h2>
+          <p class="section-note">Core materials</p>
+        </div>
+        <div class="links-panel">
+          <a class="simple-link" href="resume.pdf" target="_blank">Resume</a>
+          <a class="simple-link" href="mailto:tuozhang0902@gmail.com">Email</a>
+          <a class="simple-link" href="https://github.com/TuoZhang0902" target="_blank">GitHub</a>
+          <a class="simple-link" href="https://www.linkedin.com/in/tuo-zhang-263671387/" target="_blank">LinkedIn</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p class="section-note">Get in touch</p>
+        </div>
+        <div class="panel">
+          <p>Email: <a href="mailto:tuozhang0902@gmail.com">tuozhang0902@gmail.com</a></p>
+        </div>
+      </section>
+    </main>
   </div>
 </body>
 </html>
